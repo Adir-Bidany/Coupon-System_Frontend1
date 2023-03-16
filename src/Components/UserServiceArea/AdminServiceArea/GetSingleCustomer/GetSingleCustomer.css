@@ -1,0 +1,28 @@
+.GetSingleCustomer button{
+
+}
+.GetSingleCustomer form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.GetSingleCustomer input
+input[type="number"] {
+    width: 200px;
+    height: 25px;
+}
+
+.GetSingleCustomer button {
+    width: 100%;
+    height: 25px;
+    margin: 5px;
+    background-color: #1c3c5c;
+    color: white;
+    border: none;
+    font-size: medium;
+}
+.GetSingleCustomer button:hover {
+    color: black;
+}
+

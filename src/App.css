@@ -1,0 +1,48 @@
+.App {
+    background-color: rgb(48, 48, 48);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    height: 100%;
+    width: 100%;
+}
+
+.App > .Header {
+    background: linear-gradient(
+        90deg,
+        rgb(48, 48, 49) 0%,
+        rgb(54, 98, 106) 52%
+    );
+    grid-column: 12 span;
+    grid-row: 1 span;
+    color: #fbfafa;
+    border-bottom: 1px solid white;
+    padding: 20px;
+    justify-content: space-between;
+}
+.App > .Menu {
+    background-color: #d1d1d1;
+    border-bottom: 1px solid white;
+    grid-column: 12 span;
+    grid-row: 1 span;
+    justify-content: space-around;
+    justify-content: center;
+}
+.App > .Main {
+    background: url(../src/Assets/Images/backgroundImage.webp);
+    background-size: 100%;
+    grid-column: 12 span;
+    grid-row: 9 span;
+}
+
+.App > .Footer {
+    background: linear-gradient(
+        270deg,
+        rgb(48, 48, 49) 0%,
+        rgb(54, 98, 106) 52%
+    );
+    grid-column: 12 span;
+    grid-row: 4 span;
+    color: #fbfafa;
+    border-top: 1px solid white;
+}

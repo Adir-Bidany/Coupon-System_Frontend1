@@ -1,0 +1,10 @@
+.About >h3{
+    display: flex;
+    justify-content: left;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+}
+.About >h1{
+font-size: 45px;
+}
